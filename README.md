@@ -12,6 +12,12 @@ Modúlo sobre criação de ferramentas para simplificação de testes e correç�
 
 # Ferramentas criadas:
 
-API para consulta de usuario no Github
+API para consulta de [avatar](https://api.github.com/users/JosemarBrito) no Github
 1. pip install [requests](https://requests.readthedocs.io/en/master/)
-2. criado arquivo python para busca de [avatar](https://api.github.com/users/JosemarBrito) no github
+2. criado arquivo python para busca de  avatar no github
+____
+Requirements: Criado para colocar as dependencias exestentes no ".venv"
+1. pip freeze > requirements.txt
+____
+
+[Flake8](https://flake8.pycqa.org/en/latest/)
