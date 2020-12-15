@@ -3,6 +3,7 @@ ____
 
 Modúlo sobre criação de ferramentas para simplificação de testes e correção de falhas no aplicativo
 
+[![Build Status](https://travis-ci.org/JosemarBrito/tools.svg?branch=main)](https://travis-ci.org/JosemarBrito/tools)
 # Configuração
 
 1. Chave SSH
@@ -20,7 +21,7 @@ Requirements: Criado para colocar as dependencias exestentes no ".venv"
 >1. pip freeze > requirements.txt
 ____
 
-[Flake8](https://flake8.pycqa.org/en/latest/)
+#[Flake8](https://flake8.pycqa.org/en/latest/)
 >1. pip freeze > requirements-dev.txt
 
 1.a. criar dentro do requirements-dev.txt 
@@ -31,4 +32,9 @@ e apagar as dependencias presentes no requirements que tambem constam no -dev
 * Para utilizar o flake8, é só digitar na linha de comando que irá reportar fallhas no codigo referente a PEP8
 
 ____
+
+#[Travis-CI](https://travis-ci.org/) 
+[![Build Status](https://travis-ci.org/JosemarBrito/tools.svg?branch=main)](https://travis-ci.org/JosemarBrito/tools)
+____
+1. Criar arquivo '.travis.yml'
 
