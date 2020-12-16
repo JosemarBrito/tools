@@ -1,7 +1,8 @@
 # Caixa de Ferramentas
 ____
 
-Modúlo sobre criação de ferramentas para simplificação de testes e correção de falhas no aplicativo
+Modúlo sobre criação de ferramentas necessárias para manter a qualidade do código e entrega continua, 
+para entregar melhores projetos e valores ao cliente.
 
 [![Build Status](https://travis-ci.org/JosemarBrito/tools.svg?branch=main)](https://travis-ci.org/JosemarBrito/tools)
 # Configuração
@@ -56,3 +57,11 @@ Ps. Sempre que for necessário atualização o proprio [pyup](https://pyup.io/ac
  cria branch para atualização.
 _____
 
+##Publicação de pacotes no [Pypi](https://pypi.org/)
+
+1. Criar arquivo com nome 'setup.py'
+
+1a. Copiar arquivo do repositório [setup.py](https://github.com/pythonprobr/libpythonpro/blob/master/setup.py)
+...|||...[Classificadores](https://pypi.org/pypi?%3Aaction=list_classifiers)
+
+1b. Fazer configuração conforme projeto que será enviado.
