@@ -39,3 +39,20 @@ ____
 1. Criar arquivo '.travis.yml'
 >ps.. 
 
+#Github Action
+1. Configurado dentro do projeto no [Github](github.com)
+____
+
+###Upgrade de dependencias
+#[pyup](https://pyup.io/account/)
+[![Updates](https://pyup.io/repos/github/JosemarBrito/tools/shield.svg)](https://pyup.io/repos/github/JosemarBrito/tools/)
+[![Python 3](https://pyup.io/repos/github/JosemarBrito/tools/python-3-shield.svg)](https://pyup.io/repos/github/JosemarBrito/tools/)
+
+1. Serve para manter dependencias atualizadas, sem precisar ficar monitorando constantemente,
+e tamblem disponibiliza distintivos para informar numero de bibliotecas que necessitam de upgrade e 
+   se é possivel utilizar com python3.
+   
+Ps. Sempre que for necessário atualização o proprio [pyup](https://pyup.io/account/)
+ cria branch para atualização.
+_____
+
