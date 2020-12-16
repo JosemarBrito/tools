@@ -4,13 +4,16 @@ ____
 Modúlo sobre criação de ferramentas para simplificação de testes e correção de falhas no aplicativo
 
 [![Build Status](https://travis-ci.org/JosemarBrito/tools.svg?branch=main)](https://travis-ci.org/JosemarBrito/tools)
+[![Updates](https://pyup.io/repos/github/JosemarBrito/tools/shield.svg)](https://pyup.io/repos/github/JosemarBrito/tools/)
+[![Python 3](https://pyup.io/repos/github/JosemarBrito/tools/python-3-shield.svg)](https://pyup.io/repos/github/JosemarBrito/tools/)
+
 # Configuração
 
 1. Chave SSH
 2. Pyenv para Isolar ambiente de desenvolvimento
 3. Virtualenv, para isolar projeto
 4. Configurado virtualenv no Pycharm
-
+____
 # Ferramentas criadas:
 
 API para consulta de [avatar](https://api.github.com/users/JosemarBrito) no Github
@@ -39,3 +42,20 @@ ____
 1. Criar arquivo '.travis.yml'
 >ps.. 
 
+
+#Github Action
+1. Configurado dentro do projeto no [Github](github.com)
+____
+
+###Upgrade de dependencias
+#[pyup](https://pyup.io/account/)
+[![Updates](https://pyup.io/repos/github/JosemarBrito/tools/shield.svg)](https://pyup.io/repos/github/JosemarBrito/tools/)
+[![Python 3](https://pyup.io/repos/github/JosemarBrito/tools/python-3-shield.svg)](https://pyup.io/repos/github/JosemarBrito/tools/)
+
+1. Serve para manter dependencias atualizadas, sem precisar ficar monitorando constantemente,
+e tamblem disponibiliza distintivos para informar numero de bibliotecas que necessitam de upgrade e 
+   se é possivel utilizar com python3.
+   
+Ps. Sempre que for necessário atualização o proprio [pyup](https://pyup.io/account/)
+ cria branch para atualização.
+____
