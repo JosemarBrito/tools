@@ -65,3 +65,25 @@ _____
 ...|||...[Classificadores](https://pypi.org/pypi?%3Aaction=list_classifiers)
 
 1b. Fazer configuração conforme projeto que será enviado.
+
+1c. Colocar arquivo localizado no projeto
++ Baixar aquivo >>> pip install twine
++ criar arquivo file com nome
+  
+MANIFEST.ini
+
+1a. include README.ini
+  
+    include LICENSE
+____
+language: python
+python:
+  - "3.9"
+  # PyPy versions
+  - "pypy3"  # currently Python 3.9.0,  PyPy 7.1.1-beta0
+# command to install dependencies
+install:
+  - pip install -r requirements.txt
+  - pip install .
+# command to run tests
+script: pytest
