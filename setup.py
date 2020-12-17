@@ -96,7 +96,7 @@ def find_package_data(
 
 PACKAGE = "tools"
 NAME = PACKAGE
-DESCRIPTION = "Modúlo sobre criação de ferramentas necessárias para manter a qualidade do código e entrega continua."
+DESCRIPTION = "Modúlo sobre criação de tools necessárias para manter a qualidade do código e entrega continua."
 AUTHOR = "Josemar Brito"
 AUTHOR_EMAIL = "estudos.josemarbrito@gmail.com"
 URL = "https://github.com/JosemarBrito/tools"
