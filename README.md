@@ -1,10 +1,17 @@
-# Caixa de Ferramentas
+# Tool Box
 ____
 
-Modúlo sobre criação de ferramentas necessárias para manter a qualidade do código e entrega continua, 
-para entregar melhores projetos e valores ao cliente.
+### Modúlo sobre criação de ferramentas necessárias para manter a qualidade do código e entrega continua, para entregar melhores projetos e valores ao cliente.
+
+____
+# 1° - Criação de Projetos
+____
+###### Distintivos anexos em  em Markdown
 
 [![Build Status](https://travis-ci.org/JosemarBrito/tools.svg?branch=main)](https://travis-ci.org/JosemarBrito/tools)
+[![Updates](https://pyup.io/repos/github/JosemarBrito/tools/shield.svg)](https://pyup.io/repos/github/JosemarBrito/tools/)
+[![Python 3](https://pyup.io/repos/github/JosemarBrito/tools/python-3-shield.svg)](https://pyup.io/repos/github/JosemarBrito/tools/)
+____
 # Configuração
 
 1. Chave SSH
@@ -76,14 +83,18 @@ MANIFEST.ini
   
     include LICENSE
 ____
-language: python
-python:
-  - "3.9"
-  # PyPy versions
-  - "pypy3"  # currently Python 3.9.0,  PyPy 7.1.1-beta0
-# command to install dependencies
-install:
-  - pip install -r requirements.txt
-  - pip install .
-# command to run tests
-script: pytest
+
+# 2° - Testes Automáticos
+
+____
+#Pytest
+1. pip install pytest
+1a. Copiar dependencias instaladas e copirar dentro do requirements
+   
+1b. Verificar com comando 'pip freeze', se todas as dependencias foram instaladas.
+
+2. Criar pasta chamada 'tests'no seu projeto.
+
+2a. Settings > Python integrated tools > Default definir como Pytest.
+
+3° - Integrar Pytest com CI (este projeto esta usando do GA e o Travis)
