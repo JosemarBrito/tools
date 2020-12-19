@@ -35,4 +35,9 @@ jobs:
 
     - name: Lint with pytest
       run: |
-        pytest tools
+        pytest tools --cov=tools
+    - name: Posting Coverage
+      env:
+        CODECOV_TOKEN: "8fd9325e-d42c-4c06-8b85-1d1ea9f6ba3e"
+      run: |
+        run codecov
