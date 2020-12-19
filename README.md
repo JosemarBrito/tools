@@ -11,6 +11,8 @@ ____
 [![Build Status](https://travis-ci.org/JosemarBrito/tools.svg?branch=main)](https://travis-ci.org/JosemarBrito/tools)
 [![Updates](https://pyup.io/repos/github/JosemarBrito/tools/shield.svg)](https://pyup.io/repos/github/JosemarBrito/tools/)
 [![Python 3](https://pyup.io/repos/github/JosemarBrito/tools/python-3-shield.svg)](https://pyup.io/repos/github/JosemarBrito/tools/)
+[![codecov](https://codecov.io/gh/JosemarBrito/tools/branch/main/graph/badge.svg?token=HZdv4f1mRf)](https://codecov.io/gh/JosemarBrito/tools)
+
 ____
 # Configuração
 
@@ -99,4 +101,4 @@ ____
 
 3° - Integrar Pytest com CI (este projeto esta usando do GA e o Travis)
 
-Refazer testes com codecove
+[![codecov](https://codecov.io/gh/JosemarBrito/tools/branch/main/graph/badge.svg?token=HZdv4f1mRf)](https://codecov.io/gh/JosemarBrito/tools)
