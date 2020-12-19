@@ -11,6 +11,7 @@ ____
 [![Build Status](https://travis-ci.org/JosemarBrito/tools.svg?branch=main)](https://travis-ci.org/JosemarBrito/tools)
 [![Updates](https://pyup.io/repos/github/JosemarBrito/tools/shield.svg)](https://pyup.io/repos/github/JosemarBrito/tools/)
 [![Python 3](https://pyup.io/repos/github/JosemarBrito/tools/python-3-shield.svg)](https://pyup.io/repos/github/JosemarBrito/tools/)
+[![codecov](https://codecov.io/gh/JosemarBrito/tools/branch/main/graph/badge.svg?token=K6AQ24HUA6)](https://codecov.io/gh/JosemarBrito/tools)
 ____
 # Configuração
 

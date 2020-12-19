@@ -35,4 +35,8 @@ jobs:
 
     - name: Lint with pytest
       run: |
-        pytest tools
+        pytest tools --cov=tools
+    - name: Posting Coverage
+      env:
+        run: |
+        codecov
