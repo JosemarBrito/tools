@@ -98,3 +98,5 @@ ____
 2a. Settings > Python integrated tools > Default definir como Pytest.
 
 3° - Integrar Pytest com CI (este projeto esta usando do GA e o Travis)
+
+Refazer testes com codecove
