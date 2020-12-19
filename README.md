@@ -102,3 +102,5 @@ ____
 3° - Integrar Pytest com CI (este projeto esta usando do GA e o Travis)
 
 [![codecov](https://codecov.io/gh/JosemarBrito/tools/branch/main/graph/badge.svg?token=HZdv4f1mRf)](https://codecov.io/gh/JosemarBrito/tools)
+
+fechado
