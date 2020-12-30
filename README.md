@@ -103,3 +103,4 @@ ____
 
 [![codecov](https://codecov.io/gh/JosemarBrito/tools/branch/main/graph/badge.svg?token=HZdv4f1mRf)](https://codecov.io/gh/JosemarBrito/tools)
 
+Teste de configuração do github com vscode
